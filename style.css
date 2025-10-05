@@ -18,8 +18,22 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
 }
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.icons > i{
+    color: white;
+    font: optional;
+    font-size: 12px;
+}
+
 
 #logo{
     height: 20px;
@@ -136,4 +150,14 @@ footer{
  .heart:hover {
     color: red;
     cursor: pointer;
+ }
+
+ .right-foot{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 10px;
+ }
+
+ .fa-brands{
+    font-size: 15px;
  }
