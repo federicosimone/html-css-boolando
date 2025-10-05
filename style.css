@@ -124,3 +124,12 @@ footer{
     left: 0px;
     bottom: 100px;
  }
+
+ .heart{
+    background-color: white;
+    padding: 5px 8px ;
+    font-size: 23px;
+    position: absolute;
+    right: 0%;
+    top: 5px;
+ }
