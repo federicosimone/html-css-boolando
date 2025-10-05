@@ -133,3 +133,7 @@ footer{
     right: 0%;
     top: 5px;
  }
+ .heart:hover {
+    color: red;
+    cursor: pointer;
+ }
