@@ -55,6 +55,7 @@ main{
     width: 33%;
     flex: 1 1 calc((100% - 2em)/3);
     position: relative;
+    margin-bottom: 20px;
     
 } 
 
@@ -81,9 +82,27 @@ footer{
     padding-right: 6px;
 }
 
-.img{
+.image{
+    height: 421px;
+}
+
+.img-a{
     width: 100%;
 }
+
+.image:hover .img-a {
+    display: none;
+ }
+
+.img-b{
+     width: 100%;
+     display: none;
+}
+
+.image:hover .img-b {
+    display: block;
+   
+ }
 
 .brand{
     font-size: 12px;
@@ -126,10 +145,6 @@ footer{
     position:absolute;
     left: 48px;
     bottom: 100px;
- }
-
- .info{
-    margin-bottom: 20px;
  }
 
  #last-green{
