@@ -6,21 +6,60 @@
 
 header{
     background-color: rgb(255, 106, 0) ;
+    margin-bottom: 40px;
 }
 
 .boxed{
-    max-width: 80%;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 10px;
 }
 
 .flex-container-navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 #logo{
     height: 20px;
     vertical-align: middle;
+}
+
+main{
+    margin-bottom: 40px;
+}
+
+.flex-container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+.card{
+    background-color:lightgray;
+    width: 33%;
+    flex: 1 1 calc((100% - 2em)/3);
+    
+} 
+
+.border{
+    border: 1px dotted black ;
+}
+
+footer{
+    background-color: rgb(26, 26, 26);
+}
+
+
+footer{
+    color: white;
+}
+
+.foot-link{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 5px;
 }
