@@ -11,10 +11,16 @@ header{
 .boxed{
     max-width: 80%;
     margin: 0 auto;
+    padding: 10px;
 }
 
-.flex-container{
+.flex-container-navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+#logo{
+    height: 20px;
+    vertical-align: middle;
+}
